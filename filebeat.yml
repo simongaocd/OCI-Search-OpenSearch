@@ -179,7 +179,7 @@ setup.template.settings:
 # ---------------------------- Elasticsearch Output ----------------------------
 output.elasticsearch:
   # Array of hosts to connect to.
-  hosts: ["amaaaaaaixd2xaiae6ego5drv3eoyecqxgqbp4dxfjm6juo6lumwuiah52iq.opensearch.ap-hyderabad-1.oci.oraclecloud.com:9200"]
+  hosts: ["<opensearch-api-endpoint-uri>:9200"]
   index: "ubuntu-server2-idx-%{+yyyy.MM.dd}"
 
   # Protocol - either `http` (default) or `https`.
