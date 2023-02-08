@@ -114,7 +114,7 @@ setup.template.settings:
 output.elasticsearch:
   # Array of hosts to connect to.
   hosts: ["<opensearch-api-endpoint>:9200"]
-  index: "windows-server2-idx-%{+yyyy.MM.dd}"
+  index: "windows-server2-idx-%{+yyyy.MM}"
 
   # Protocol - either `http` (default) or `https`.
   protocol: "https"
