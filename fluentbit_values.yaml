@@ -10,12 +10,12 @@ image:
   repository: fluent/fluent-bit
   # Overrides the image tag whose default is {{ .Chart.AppVersion }}
   tag: ""
-  pullPolicy: Always
+  #pullPolicy: Always
 
 testFramework:
   image:
     repository: busybox
-    pullPolicy: Always
+    #pullPolicy: Always
     tag: latest
 
 imagePullSecrets: []
